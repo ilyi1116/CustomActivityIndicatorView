@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48B3C2DA138C6E1200DFDB21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B3C2D9138C6E1200DFDB21 /* UIKit.framework */; };
+		48B3C2DC138C6E1200DFDB21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B3C2DB138C6E1200DFDB21 /* Foundation.framework */; };
+		48B3C2DE138C6E1200DFDB21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B3C2DD138C6E1200DFDB21 /* CoreGraphics.framework */; };
+		48B3C2E4138C6E1200DFDB21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48B3C2E2138C6E1200DFDB21 /* InfoPlist.strings */; };
+		48B3C2E7138C6E1200DFDB21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B3C2E6138C6E1200DFDB21 /* main.m */; };
+		48B3C2EA138C6E1200DFDB21 /* CustomActivityIndicatorViewDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B3C2E9138C6E1200DFDB21 /* CustomActivityIndicatorViewDemoAppDelegate.m */; };
+		48B3C2ED138C6E1200DFDB21 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48B3C2EB138C6E1200DFDB21 /* MainWindow.xib */; };
+		48B3C2F0138C6E1200DFDB21 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B3C2EF138C6E1200DFDB21 /* RootViewController.m */; };
+		48B3C2F3138C6E1200DFDB21 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48B3C2F1138C6E1200DFDB21 /* RootViewController.xib */; };
+		48B3C305138C6EAA00DFDB21 /* CustomActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B3C303138C6EAA00DFDB21 /* CustomActivityIndicatorView.m */; };
+		48B3C306138C6EAA00DFDB21 /* CustomActivityIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48B3C304138C6EAA00DFDB21 /* CustomActivityIndicatorView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48B3C2D5138C6E1200DFDB21 /* CustomActivityIndicatorViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomActivityIndicatorViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B3C2D9138C6E1200DFDB21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48B3C2DB138C6E1200DFDB21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48B3C2DD138C6E1200DFDB21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48B3C2E1138C6E1200DFDB21 /* CustomActivityIndicatorViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomActivityIndicatorViewDemo-Info.plist"; sourceTree = "<group>"; };
+		48B3C2E3138C6E1200DFDB21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48B3C2E5138C6E1200DFDB21 /* CustomActivityIndicatorViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomActivityIndicatorViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		48B3C2E6138C6E1200DFDB21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48B3C2E8138C6E1200DFDB21 /* CustomActivityIndicatorViewDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomActivityIndicatorViewDemoAppDelegate.h; sourceTree = "<group>"; };
+		48B3C2E9138C6E1200DFDB21 /* CustomActivityIndicatorViewDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomActivityIndicatorViewDemoAppDelegate.m; sourceTree = "<group>"; };
+		48B3C2EC138C6E1200DFDB21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		48B3C2EE138C6E1200DFDB21 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		48B3C2EF138C6E1200DFDB21 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		48B3C2F2138C6E1200DFDB21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		48B3C302138C6EAA00DFDB21 /* CustomActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomActivityIndicatorView.h; sourceTree = "<group>"; };
+		48B3C303138C6EAA00DFDB21 /* CustomActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomActivityIndicatorView.m; sourceTree = "<group>"; };
+		48B3C304138C6EAA00DFDB21 /* CustomActivityIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomActivityIndicatorView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48B3C2D2138C6E1200DFDB21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B3C2DA138C6E1200DFDB21 /* UIKit.framework in Frameworks */,
+				48B3C2DC138C6E1200DFDB21 /* Foundation.framework in Frameworks */,
+				48B3C2DE138C6E1200DFDB21 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48B3C2CA138C6E1200DFDB21 = {
+			isa = PBXGroup;
+			children = (
+				48B3C2DF138C6E1200DFDB21 /* CustomActivityIndicatorViewDemo */,
+				48B3C2D8138C6E1200DFDB21 /* Frameworks */,
+				48B3C2D6138C6E1200DFDB21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48B3C2D6138C6E1200DFDB21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48B3C2D5138C6E1200DFDB21 /* CustomActivityIndicatorViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48B3C2D8138C6E1200DFDB21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48B3C2D9138C6E1200DFDB21 /* UIKit.framework */,
+				48B3C2DB138C6E1200DFDB21 /* Foundation.framework */,
+				48B3C2DD138C6E1200DFDB21 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48B3C2DF138C6E1200DFDB21 /* CustomActivityIndicatorViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				48B3C301138C6E9600DFDB21 /* CustomActivityIndicatorView */,
+				48B3C2E8138C6E1200DFDB21 /* CustomActivityIndicatorViewDemoAppDelegate.h */,
+				48B3C2E9138C6E1200DFDB21 /* CustomActivityIndicatorViewDemoAppDelegate.m */,
+				48B3C2EB138C6E1200DFDB21 /* MainWindow.xib */,
+				48B3C2EE138C6E1200DFDB21 /* RootViewController.h */,
+				48B3C2EF138C6E1200DFDB21 /* RootViewController.m */,
+				48B3C2F1138C6E1200DFDB21 /* RootViewController.xib */,
+				48B3C2E0138C6E1200DFDB21 /* Supporting Files */,
+			);
+			path = CustomActivityIndicatorViewDemo;
+			sourceTree = "<group>";
+		};
+		48B3C2E0138C6E1200DFDB21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48B3C2E1138C6E1200DFDB21 /* CustomActivityIndicatorViewDemo-Info.plist */,
+				48B3C2E2138C6E1200DFDB21 /* InfoPlist.strings */,
+				48B3C2E5138C6E1200DFDB21 /* CustomActivityIndicatorViewDemo-Prefix.pch */,
+				48B3C2E6138C6E1200DFDB21 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48B3C301138C6E9600DFDB21 /* CustomActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				48B3C302138C6EAA00DFDB21 /* CustomActivityIndicatorView.h */,
+				48B3C303138C6EAA00DFDB21 /* CustomActivityIndicatorView.m */,
+				48B3C304138C6EAA00DFDB21 /* CustomActivityIndicatorView.xib */,
+			);
+			name = CustomActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48B3C2D4138C6E1200DFDB21 /* CustomActivityIndicatorViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B3C2F6138C6E1200DFDB21 /* Build configuration list for PBXNativeTarget "CustomActivityIndicatorViewDemo" */;
+			buildPhases = (
+				48B3C2D1138C6E1200DFDB21 /* Sources */,
+				48B3C2D2138C6E1200DFDB21 /* Frameworks */,
+				48B3C2D3138C6E1200DFDB21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomActivityIndicatorViewDemo;
+			productName = CustomActivityIndicatorViewDemo;
+			productReference = 48B3C2D5138C6E1200DFDB21 /* CustomActivityIndicatorViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48B3C2CC138C6E1200DFDB21 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 48B3C2CF138C6E1200DFDB21 /* Build configuration list for PBXProject "CustomActivityIndicatorViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48B3C2CA138C6E1200DFDB21;
+			productRefGroup = 48B3C2D6138C6E1200DFDB21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48B3C2D4138C6E1200DFDB21 /* CustomActivityIndicatorViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48B3C2D3138C6E1200DFDB21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B3C2E4138C6E1200DFDB21 /* InfoPlist.strings in Resources */,
+				48B3C2ED138C6E1200DFDB21 /* MainWindow.xib in Resources */,
+				48B3C2F3138C6E1200DFDB21 /* RootViewController.xib in Resources */,
+				48B3C306138C6EAA00DFDB21 /* CustomActivityIndicatorView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48B3C2D1138C6E1200DFDB21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B3C2E7138C6E1200DFDB21 /* main.m in Sources */,
+				48B3C2EA138C6E1200DFDB21 /* CustomActivityIndicatorViewDemoAppDelegate.m in Sources */,
+				48B3C2F0138C6E1200DFDB21 /* RootViewController.m in Sources */,
+				48B3C305138C6EAA00DFDB21 /* CustomActivityIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48B3C2E2138C6E1200DFDB21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48B3C2E3138C6E1200DFDB21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		48B3C2EB138C6E1200DFDB21 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48B3C2EC138C6E1200DFDB21 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		48B3C2F1138C6E1200DFDB21 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48B3C2F2138C6E1200DFDB21 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48B3C2F4138C6E1200DFDB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48B3C2F5138C6E1200DFDB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		48B3C2F7138C6E1200DFDB21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomActivityIndicatorViewDemo/CustomActivityIndicatorViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "CustomActivityIndicatorViewDemo/CustomActivityIndicatorViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		48B3C2F8138C6E1200DFDB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomActivityIndicatorViewDemo/CustomActivityIndicatorViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "CustomActivityIndicatorViewDemo/CustomActivityIndicatorViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48B3C2CF138C6E1200DFDB21 /* Build configuration list for PBXProject "CustomActivityIndicatorViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B3C2F4138C6E1200DFDB21 /* Debug */,
+				48B3C2F5138C6E1200DFDB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B3C2F6138C6E1200DFDB21 /* Build configuration list for PBXNativeTarget "CustomActivityIndicatorViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B3C2F7138C6E1200DFDB21 /* Debug */,
+				48B3C2F8138C6E1200DFDB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48B3C2CC138C6E1200DFDB21 /* Project object */;
+}
