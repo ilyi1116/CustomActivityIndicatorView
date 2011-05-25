@@ -14,20 +14,29 @@
 @synthesize tblSampleData;
 @synthesize arraySampleData;
 
+@synthesize customActivityIndicatorView;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     arraySampleData = [[NSMutableArray alloc] initWithObjects:@"Sample 1",@"Sample 2",@"Sample 3",@"Sample 4",@"Sample 5",@"Sample 6",@"Sample 7",@"Sample 8",@"Sample 9",@"Sample 10", nil];
     
-    CustomActivityIndicatorView *customActivityIndicatorView = [[CustomActivityIndicatorView alloc] init];
-    [self.view addSubview:customActivityIndicatorView.view];
-    [self.view bringSubviewToFront:customActivityIndicatorView.view];
+    customActivityIndicatorView = [[CustomActivityIndicatorView alloc] init];
+    
+    [self showActivityIndicator];
+    [self performSelector:@selector(hideActivityIndicator) withObject:nil afterDelay:5];
 }
 
 -(void)showActivityIndicator
 {
-    
+    [self.view addSubview:customActivityIndicatorView.view];
+    [self.view bringSubviewToFront:customActivityIndicatorView.view];
+}
+
+-(void)hideActivityIndicator
+{
+    [customActivityIndicatorView.view removeFromSuperview];
 }
 
 - (void)viewWillAppear:(BOOL)animated
