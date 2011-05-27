@@ -11,7 +11,7 @@ How to use:
 
 1. Import "CustomActivityIndicatorView.h" into the header file of the class you will use it.
 
-//#import "CustomActivityIndicatorView.h"
+#import "CustomActivityIndicatorView.h"
 
 2. Add a property for the CustomActivityIndicatorView in your header file. 
 
