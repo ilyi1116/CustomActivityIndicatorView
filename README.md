@@ -1,4 +1,4 @@
 CustomActivityIndicatorViewDemo
 ============
 
-<img src="screenshot.png" alt="Screenshot" />
+<img src="/screenshot.png" alt="Screenshot" />
